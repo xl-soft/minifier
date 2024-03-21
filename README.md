@@ -7,7 +7,7 @@ An awesome language minifier for Deno that is powered by WebAssembly!
 To start using minifier with Deno, just add an import to the top of your file and get all of the features that you want to use from there! Here is an example import:
 
 ```ts
-import { Language, minify } from "https://deno.land/x/minifier/mod.ts";
+import { Language, minify } from "https://deno.land/x/minify/mod.ts";
 ```
 
 > For simplicity, we will not be including the import statements in our code examples. Therefore, it is implicit that you can import what you need by adjusting the code above.
@@ -96,7 +96,7 @@ Minifier even has its own CLI that allows you quickly minify files in your termi
 To install the CLI for minifier, run the following command:
 
 ```sh
-deno install --allow-read --allow-write --allow-hrtime https://deno.land/x/minifier/cli.ts
+deno install --allow-read --allow-write --allow-hrtime https://deno.land/x/minify/cli.ts
 ```
 
 > We strongly suggest including the `--allow-hrtime` flag as it allows the performance benchmarks to be more accurate.
